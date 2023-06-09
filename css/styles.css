@@ -4,15 +4,13 @@
     --dark: #2E2F42;
     --success: #31D0AA;
     --text: #434455;
-    --subtle-text:#434455;
+    --subtle-text: #434455;
     --accent: #E7E9FC;
     --light: #F4F4FD;
     --modal-overlay: rgba(46, 47, 66, 0.4);
     --hero-background: rgba(46, 47, 66, 0.7);
     --white-background: #FFFFFF;
     --modal-background: #FCFCFC;
-
-
 }
 
 /* Styles for index.html */
@@ -43,6 +41,7 @@ ul {
 
 .address-nav .link {
     text-decoration: none;
+    font-style: normal;
     color: var(--text);
 }
 
@@ -91,7 +90,6 @@ ul {
     left: 636px;
     top: 428px;
     background: var(--primary-brand);
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     border-radius: 4px;
     font-weight: 500;
     font-size: 16px;
