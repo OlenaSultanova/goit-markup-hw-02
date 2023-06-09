@@ -27,6 +27,7 @@ body {
 /* Site navigation */
 .logo {
     text-decoration: none;
+    text-transform: uppercase;
     font-family: 'Raleway' sans-serif;
     font-weight: 800;
     font-size: 18px;
@@ -38,6 +39,8 @@ body {
 
 .logo-color {
     color: var(--dark);
+    font-family: 'Raleway' sans-serif;
+    text-transform: uppercase;
 }
 
 .list {
@@ -50,7 +53,7 @@ body {
     font-size: 16px;
     font-weight: 500;
     line-height: 1.5;
-    letter-spacing: 0,02em;
+    letter-spacing: 0.02em;
 }
 .list .link:focus,
 .list .link:hover {
@@ -58,12 +61,15 @@ body {
 
 }
 
+.address-nav {
+    font-style: normal;
+}
+
 .address-nav .link {
     text-decoration: none;
-    font-style: normal;
     color: var(--text);
     line-height: 1.5;
-    letter-spacing: 0,02;
+    letter-spacing: 0.02;
 }
 
 .address-nav .link:focus,
@@ -79,14 +85,21 @@ body {
 .hero-title {
     color: var(--white-background);
     letter-spacing: 0.02em;   
+    font-size: 56px;
+    line-height: 1.07;
+    text-align: center;
 }
 .button {
     cursor: pointer;
     color: var(--white-background);
     background: var(--primary-brand);
-    line-height: 150%;
+    line-height: 1.5;
     font-family: 'Roboto', sans-serif;
     letter-spacing: 0.04em;
+    font-weight: 500;
+    font-size: 16px;
+
+
 }
 .button:hover,
 .button:focus {
@@ -153,6 +166,10 @@ body {
     color: var(--subtle-text);
 }
 
+.team-card-background {
+    background-color: #FFFFFF;
+}
+
 /* Footer */
 .footer {
     background-color: var(--dark);
@@ -168,24 +185,23 @@ body {
 }
 
 /* Styles for portfolio.html */
-.portfolio-nav .link {
-    text-decoration: none;
-}
 
 .nav-button {
     cursor: pointer;
     color: var(--primary-brand);
-    background: var(--light);
+    background-color: var(--light);
     border: 1px solid var(--accent);
     font-style: normal;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
-    font-family: 'Roboto', sans-serif;    
+    font-family: 'Roboto', sans-serif;   
+    letter-spacing: 0.04em; 
 }
 
 .nav-button:hover,
 .nav-button:focus {
+    color: var(--white-background);
     background: var(--pressed-state);
 }
 
@@ -202,6 +218,6 @@ body {
     line-height: 1.5;
     letter-spacing: 0.02;
     color: var(--subtle-text);
-    
+
 }
 
