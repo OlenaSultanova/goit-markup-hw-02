@@ -18,7 +18,7 @@
 /* Styles for index.html */
 body {
     color: var(--dark);
-    font-family: Roboto, sans-serif;
+    font-family: 'Roboto', sans-serif;
     font-style: normal;
 }
 ul {
