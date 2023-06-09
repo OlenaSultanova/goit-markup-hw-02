@@ -1,0 +1,122 @@
+:root {
+    --primary-brand: #4D5AE5;
+    --pressed-state: #404BBF;
+    --dark: #2E2F42;
+    --success: #31D0AA;
+    --text: #434455;
+    --subtle-text:#434455;
+    --accent: #E7E9FC;
+    --light: #F4F4FD;
+    --modal-overlay: rgba(46, 47, 66, 0.4);
+    --hero-background: rgba(46, 47, 66, 0.7);
+    --white-background: #FFFFFF;
+    --modal-background: #FCFCFC;
+
+
+}
+
+/* Styles for index.html */
+body {
+    color: var(--dark);
+    font-family: Roboto, sans-serif;
+}
+ul {
+    list-style: none;
+}
+
+
+/* Site navigation */
+.logo {
+    text-decoration: none;
+}
+
+.site-nav .link {
+    color: var(--dark);
+    text-decoration: none;
+}
+.site-nav .link:focus,
+.site-nav .link:hover {
+    color: var(--pressed-state);
+
+}
+
+.address-nav .link {
+    text-decoration: none;
+    color: var(--text);
+}
+
+.address-nav .link:focus,
+.address-nav .link:hover {
+    color: var(--pressed-state);
+}
+
+/* Header */
+.page-header {
+    display: inline;
+    width: 1440px;
+    height: 72px;
+    left: 0px;
+    top: 0px;
+    background: var(--white-background);
+
+}
+
+/* Hero */
+.hero {
+    width: 1440px;
+    height: 600px;
+    left: 0px;
+    top: 72px;
+    background: var(--dark);
+}
+.hero-title {
+    color: var(--white-background);
+    position: absolute;
+    width: 496px;
+    height: 120px;
+    left: 472px;
+    top: 260px;
+    font-style: normal;
+    font-size: 56px;
+    line-height: 107%;
+    text-align: center;
+    letter-spacing: 0.02em;
+    
+}
+.button {
+    color: #FFFFFF;
+    position: absolute;
+    width: 169px;
+    height: 56px;
+    left: 636px;
+    top: 428px;
+    background: #4D5AE5;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 150%;
+    margin-top: 48px;
+}
+.button:hover,
+.button:focus {
+    background: #404BBF;
+}
+
+
+
+/* Styles for portfolio.html */
+.portfolio-nav .link {
+    text-decoration: none;
+}
+
+.nav-button {
+    cursor: pointer;
+    color: var(--primary-brand);
+}
+
+.nav-button:hover,
+.nav-button:focus {
+    background: var(--pressed-state);
+}
