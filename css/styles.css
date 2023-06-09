@@ -19,6 +19,7 @@
 body {
     color: var(--dark);
     font-family: Roboto, sans-serif;
+    font-style: normal;
 }
 ul {
     list-style: none;
@@ -76,7 +77,6 @@ ul {
     height: 120px;
     left: 472px;
     top: 260px;
-    font-style: normal;
     font-size: 56px;
     line-height: 107%;
     text-align: center;
@@ -93,7 +93,6 @@ ul {
     background: #4D5AE5;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     border-radius: 4px;
-    font-style: normal;
     font-weight: 500;
     font-size: 16px;
     line-height: 150%;
