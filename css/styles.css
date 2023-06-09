@@ -17,13 +17,17 @@
 body {
     color: var(--dark);
     font-family: 'Roboto', sans-serif;
-    font-style: normal;
+    
 }
 ul {
     list-style: none;
 }
 
 
+/* Header */
+.page-header {
+    background: var(--white-background);
+}
 /* Site navigation */
 .logo {
     text-decoration: none;
@@ -48,17 +52,6 @@ ul {
 .address-nav .link:focus,
 .address-nav .link:hover {
     color: var(--pressed-state);
-}
-
-/* Header */
-.page-header {
-    display: inline;
-    width: 1440px;
-    height: 72px;
-    left: 0px;
-    top: 0px;
-    background: var(--white-background);
-
 }
 
 /* Hero */
@@ -113,7 +106,6 @@ ul {
     color: var(--primary-brand);
     box-sizing: border-box;
     display: flex;
-    flex-direction: row;
     justify-content: center;
     align-items: center;
     padding: 12px 24px;
@@ -122,9 +114,12 @@ ul {
     background: var(--light);
     border: 1px solid var(--accent);
     border-radius: 4px;
-    flex: none;
-    order: 2;
-    flex-grow: 0;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 150%;
+    font-family: 'Roboto', sans-serif;
+        
 }
 
 .nav-button:hover,
